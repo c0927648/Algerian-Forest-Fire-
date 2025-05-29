@@ -11,17 +11,25 @@ Instances: Around 244 records
 
 Features: Includes temperature, humidity, wind, rain, and several Fire Weather Index (FWI) system components:
 
-FFMC – Fine Fuel Moisture Code
+Temperature — Ambient temperature in °C
 
-DMC – Duff Moisture Code
+RH — Relative humidity (%)
 
-DC – Drought Code
+Rain — Rainfall in mm
 
-ISI – Initial Spread Index
+FFMC — Fine Fuel Moisture Code (related to surface litter flammability)
 
-BUI – Buildup Index
+DMC — Duff Moisture Code (moisture in loosely compacted organic layers)
 
-FWI – Fire Weather Index
+DC — Drought Code (deep organic layer dryness / long-term drought index)
+
+ISI — Initial Spread Index (potential fire spread rate)
+
+BUI — Build-Up Index (amount of fuel available for combustion)
+
+FWI — Fire Weather Index (final fire risk score from the Canadian FWI system)
+
+Region — Geographic region indicator (e.g., 0 or 1)
 
 Target: A binary label indicating fire occurrence (Classes: fire or not fire)
 
